@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Mirza:wght@400;500;600;700&family=Roboto:wght@100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    /* background-color: #0d0d0d; */
+    background-color: #252930;
+    overflow-x: hidden;
+}
+
+#headerRight {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#title {
+    font-size: 32px;
+    font-weight:100;
+    font-family: 'Mirza', sans-serif;
+    text-transform: capitalize;
+    padding-top: 7px;
+    color: rgb(183, 183, 183);
+}
+#jobText {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: gray;
+    padding-top: 12px;
+}
+#based {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+}
+#idea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    
+}
+#buttons {
+    margin-top: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#aboutUs {
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    color: rgb(193, 193, 193);
+    
+    
+}
+#aboutText {
+    font-family: 'Josefin Sans',sans-serif;
+    padding-left: 70px;
+}
+#build {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    color: rgb(193, 193, 193);
+}
+#workTitle {
+    padding-left: 19.8em;
+}
+#projectTitle {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding-top: 14px;
+}
+
+#experience {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(193, 193, 193);
+}
+#contactPage {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#footer {
+    font-family: 'Josefin Sans', sans-serif;
+}
